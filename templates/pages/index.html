@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load humanize %}
+{% block title %} | Welcome{% endblock %}
 {% load static %} {% block content%}
 <!-- Showcase -->
 <section id="showcase">
@@ -81,7 +82,8 @@
     </div>
   </div>
 </section>
-
+<!-- Alerts -->
+{% include 'partials/_alerts.html' %}
 <!-- Listings -->
 <section id="listings" class="py-5">
   <div class="container">

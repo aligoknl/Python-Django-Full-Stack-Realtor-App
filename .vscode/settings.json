@@ -3,5 +3,6 @@
     "--disable=C0111",
     "--load-plugins=pylint_django"
   ],
-  "python.autoComplete.extraPaths": []
+  "python.autoComplete.extraPaths": [],
+  "python.analysis.extraPaths": []
 }
